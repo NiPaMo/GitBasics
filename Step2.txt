@@ -1,0 +1,22 @@
+Great job! Now you have a file staged to be commited. How do you know what's staged? Use the command "git status" and you will see 
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        modified file:   Step1.txt
+
+Go ahead and unstage the file using the command "git rm --cached Step1.txt". Use "git status" again and you will see
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Step1.txt
+
+Restage the file. Use "git commit ." this time.
+Now you are ready to commit. You can do this in 1 line using "git commit -m "Commit Mesage"". It is helpful to enter a descriptive message such as Added refresh button to main screen. This helps the next person see what was changed.
+Enter "git commit -m "Added Name to file" and replace "Name" with your name. Now use "git status" again and you will see
+On branch master
+nothing to commit, working tree clean
+
+Now that the commit is made, it can be viewed by in the log. Use "git log" and you will see your commit at the top of the file.
+Use the arrow keys to move up and down and type "q" to quit. This is similar to the VIM editor.
+
+Continue to step 3 to learn about remotes.

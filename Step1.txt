@@ -1,0 +1,6 @@
+Cogratualtions! You just cloned your first repo. Now it's time to make your first commit. 
+Edit this file by adding your name below, save it and stage it to be commited.
+Command: git add Step1.txt
+(git add . will also work - stages all changed files)
+
+Nick Moyer

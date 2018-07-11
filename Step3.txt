@@ -1,0 +1,9 @@
+A remote is a public repository that corresponds to your local repository. When you cloned this respostory from the file server, a 
+remote was automatically added to this project. Use "git remote -v" to see it. Origin is always the name of the main remote. You can 
+add additonal remotes, but this wont be necessary now.
+
+Now that you have a local commit, you can push it to remote. The next person to clone this repository will see your changes. If they
+have already cloned the repository, they can pull your changes to merge the code with theirs.
+Use "git push origin master" to update the remote with your changes. 
+
+Congratulations! You completed your first workflow with git!
